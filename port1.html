@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="lio.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <title>Portfolio</title>
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <nav>
+        <div style="text-align: center;">
+          <img src="/background.png" alt="Image description" width="1400" />
+        </div>
+       
+        <div class="navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <i class="fa-regular fa-circle-xmark"></i>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars"></i>
+      </nav>
+      <div class="header-text">
+        <p>Frontend developer</p>
+        <h1>Hi, I'm Sufiyan<br/>From India</h1>
+      </div>
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="./user.png" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I'm a frontend developer with a passion for creating interactive, responsive, and user-centric web applications. With a deep understanding of HTML, CSS, and JavaScript, I specialize in building clean, optimized interfaces using modern frameworks like Reactjs.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link">Skills</p>
+            <p class="tab-links">Experience</p>
+            <p class="tab-links">Education</p>
+          </div>
+          <div class="tab-contents">
+            <ul>
+              <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+              <li><span>Web development</span><br />Web app Development</li>
+              <li><span>App development</span><br />Building Android/iOS apps</li>
+            </ul>
+          </div>
+          <div class="tab-contents">
+            <ul>
+              <li><span>2021 - Current</span><br />UI/UX Design Training at ET Institute</li>
+              <li><span>2019 - 2023</span><br />Bachelor of Technology in Computer Science Engineering</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>I designed and developed a sleek, responsive portfolio website to showcase my projects and skills as a frontend developer. The design emphasizes simplicity, modern aesthetics, and user-friendly navigation, ensuring a seamless experience across all devices.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Website development</h2>
+          <p>Website development is the process of building and maintaining websites, involving a combination of design, programming, and content creation. It includes everything from creating the layout and user interface to coding the website’s functionality using programming languages like HTML, CSS, and JavaScript. Developers focus on ensuring the site is responsive.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>App Design</h2>
+          <p>App design is the process of creating the visual and interactive elements of a mobile or web application. It focuses on the user interface (UI) and user experience (UX), ensuring that the app is not only visually appealing but also easy to navigate and use. Effective app design starts with understanding the target audience and their needs, followed by creating wireframes and prototypes that outline the app’s layout and functionality.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="/work-1.png" />
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects you to talented people around the world. Download it from Play Store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="/work-2.png" />
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>The app connects you to talented people around the world. Download it from Play Store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="/work-3.png" />
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>The app connects you to talented people around the world. Download it from Play Store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <div class="social-icons">
+            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="#" class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @ Kevin. <i class="fa-solid fa-heart"></i></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
